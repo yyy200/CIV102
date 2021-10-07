@@ -1,0 +1,46 @@
+/* Resets */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Text styles */
+
+h1 {
+  font-size: 7rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2.75rem;
+}
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+}
+
+/* Download */
+
+a[download] {
+  font-size: large;
+  /* color: white; */
+  display: inline-block;
+  background-color: gainsboro;
+  border-radius: 1em;
+  padding: 1em 2em;
+}
