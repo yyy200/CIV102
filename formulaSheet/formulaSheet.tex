@@ -4,6 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{fancyhdr}
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{setspace} 
 \usepackage{graphicx}
 \usepackage{float}
@@ -159,5 +160,19 @@
             P_{central\;joint}= W \cdot \frac{s\cdot W_D}{2} \\
             P_{end\;joint}= W \cdot \frac{s\cdot W_D}{4} 
         \end{math}
+    
+    \section{Buckling}
+        \begin{math}
+            \phi = \frac{d\theta}{dx} \\
+            P \cdot y = P \cdot \Delta_{lat} = M\\
+            M = EI\phi \\
+            y(x) = A \sin(\omega x + B) \\
+            \frac{dy}{dx} = A\omega \cos(\omega x +B) \\
+            \frac{d^2y}{dx^2} = -A\omega^2 \sin(\omega x +B) \\
+            n\pi =L\cdot \sqrt{\frac{P}{EI}},\;n\;\epsilon \;\mathbb{N}\\
+            P = \frac{n^2\pi^2 E I}{L^2} \\
+            P_{crit} = \frac{\pi^2 EI}{L^2} = P_E 
+        \end{math}
+        
         
 \end{document}
