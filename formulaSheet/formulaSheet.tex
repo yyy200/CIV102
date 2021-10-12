@@ -41,7 +41,10 @@
             = \frac{\sigma \epsilon V_0}{2}\\ 
             U = \int \sigma d\epsilon \\
             W = U \cdot V_0 \rightarrow U = \frac{W}{V_0} \\
-            \epsilon_{th} = \alpha \Delta T 
+            \epsilon_{th} = \alpha \Delta T \\
+            F_{failure} = A\sigma_y \\
+            F_{allowable} = \frac{A\sigma_y}{FOS} \geq F_{demand} \\
+            A \geq \frac{FOS \cdot F_{demand}}{\sigma_y}
         \end{math}
 
     \section{Equilibrium}  
@@ -171,8 +174,18 @@
             \frac{d^2y}{dx^2} = -A\omega^2 \sin(\omega x +B) \\
             n\pi =L\cdot \sqrt{\frac{P}{EI}},\;n\;\epsilon \;\mathbb{N}\\
             P = \frac{n^2\pi^2 E I}{L^2} \\
-            P_{crit} = \frac{\pi^2 EI}{L^2} = P_E 
+            P_{crit} = \frac{\pi^2 EI}{L^2} = P_E \\
+            r = \sqrt{\frac{I}{A}},\;r=\;radius\;of\;gyration\\
+            \sigma_E = \frac{P_E }{A} = \frac{\pi^2 EI}{AL^2} = \frac{\pi^2 E}{(L/r)^2},\;L/r=\;slenderness\;ratio 
         \end{math}
-        
-        
+
+    \section{Compression Member}
+    \begin{math}
+        failure\;envelope = \min\{\sigma_y, \sigma_E\} \\
+        \sigma_{allowable} = \min\{\frac{1}{FOS_{crush}}\cdot\sigma_y, \frac{1}{FOS_{buckling}}\cdot\sigma_E\} \\
+        Yield:\;F_{allowable}=\frac{1}{FOS_{crush}}A\sigma_Y \geq F_{demand} \\
+        A \geq FOS_{crush} \cdot \frac{F_{demand}}{\sigma_Y}\\
+        Buckling:\;F_{allowable}=\frac{1}{FOS_{buckling}}A\sigma_E \geq F_{demand} \\
+        I \geq FOS_{buckling} \cdot \frac{F_{demand} L^2}{\pi^2 E}
+    \end{math}
 \end{document}
