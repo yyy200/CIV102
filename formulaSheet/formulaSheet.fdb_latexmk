@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1634226075 "/Users/youssefelmays/Desktop/Latex/CIV102/formulaSheet/formulaSheet.tex" "/Users/youssefelmays/Desktop/Latex/CIV102/formulaSheet/formulaSheet.pdf" "formulaSheet" 1634226076
-  "/Users/youssefelmays/Desktop/Latex/CIV102/formulaSheet/formulaSheet.aux" 1634226076 1320 81fe2b3cfb7c30f93dce45d6bfe7b56c ""
-  "/Users/youssefelmays/Desktop/Latex/CIV102/formulaSheet/formulaSheet.tex" 1634226075 7347 730e0f18a76ab194994c093ef0be05f6 ""
+["pdflatex"] 1634231499 "/Users/youssefelmays/Desktop/Latex/CIV102/formulaSheet/formulaSheet.tex" "/Users/youssefelmays/Desktop/Latex/CIV102/formulaSheet/formulaSheet.pdf" "formulaSheet" 1634231500
+  "/Users/youssefelmays/Desktop/Latex/CIV102/formulaSheet/formulaSheet.aux" 1634231500 1320 81fe2b3cfb7c30f93dce45d6bfe7b56c ""
+  "/Users/youssefelmays/Desktop/Latex/CIV102/formulaSheet/formulaSheet.tex" 1634231498 7467 adb43aaad5dd441c852e40150b64bd53 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -63,11 +63,11 @@
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
   "Bending.png" 1633465130 75408 ad638ba130dd4bccdabf3ec9f0a1a4d6 ""
   "TrussBridge.jpeg" 1633447464 36756 a0771d94be382e22fabc222942b24774 ""
-  "formulaSheet.aux" 1634226076 1320 81fe2b3cfb7c30f93dce45d6bfe7b56c "pdflatex"
-  "formulaSheet.tex" 1634226075 7347 730e0f18a76ab194994c093ef0be05f6 ""
+  "formulaSheet.aux" 1634231500 1320 81fe2b3cfb7c30f93dce45d6bfe7b56c "pdflatex"
+  "formulaSheet.tex" 1634231498 7467 adb43aaad5dd441c852e40150b64bd53 ""
   (generated)
   "formulaSheet.pdf"
-  "formulaSheet.log"
-  "/Users/youssefelmays/Desktop/Latex/CIV102/formulaSheet/formulaSheet.log"
   "/Users/youssefelmays/Desktop/Latex/CIV102/formulaSheet/formulaSheet.pdf"
   "formulaSheet.aux"
+  "/Users/youssefelmays/Desktop/Latex/CIV102/formulaSheet/formulaSheet.log"
+  "formulaSheet.log"
