@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.8)  18 OCT 2021 18:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.8)  19 OCT 2021 11:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -228,15 +228,15 @@ Package pdftex.def Info: TrussBridge.jpeg  used on input line 149.
 (pdftex.def)             Requested size: 227.62204pt x 147.97745pt.
  [4 </Users/youssefelmays/Desktop/Latex/CIV102/formulaSheet/TrussBridge.jpeg>] [5] [6] (/Users/youssefelmays/Desktop/Latex/CIV102/formulaSheet/formulaSheet.aux) ) 
 Here is how much of TeX's memory you used:
- 3467 strings out of 478994
- 47451 string characters out of 5858185
+ 3471 strings out of 478994
+ 47489 string characters out of 5858185
  361030 words of memory out of 5000000
- 20922 multiletter control sequences out of 15000+600000
- 406647 words of font info for 40 fonts, out of 8000000 for 9000
+ 20924 multiletter control sequences out of 15000+600000
+ 407266 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,10n,74p,283b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/youssefelmays/Desktop/Latex/CIV102/formulaSheet/formulaSheet.pdf (6 pages, 240102 bytes).
+Output written on /Users/youssefelmays/Desktop/Latex/CIV102/formulaSheet/formulaSheet.pdf (6 pages, 241435 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
