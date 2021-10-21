@@ -210,4 +210,24 @@
         A_{tributary\;bottom} = \frac{h \cdot s}{2},\; due \; to\; handrail \\
         A_{tributary\;top} = \Sigma sh
     \end{math}
+    \pagebreak
+    \section{Free vibrations in truss}
+    \begin{math}
+        f_n = \frac{15.76}{\sqrt{\Delta_0}}\; for\; single\; load \\
+        f_n = \frac{17.76}{\sqrt{\Delta_0}}\; for\; distributed\; load\\
+        \textbf{Damping}: \text{Tendency of a system to lose energy as it vibrates} \\
+        \beta = \text{Damping ratio} \\
+        \frac{m d^2x}{dt^2} + 2\beta\sqrt{mk}\frac{dx}{dt} + kx = mg \\
+        x(t) = Ae^{-\beta \omega_n t} sin(\omega_n t \sqrt{1 - \beta^2} + \phi) + \Delta_0
+    \end{math}
+
+    \section{Forced vibrations}
+    \begin{math}
+        F(t) = F_0sin(\omega t)+mg \\
+        \frac{m d^2x}{dt^2} + 2\beta\sqrt{mk}\frac{dx}{dt} + kx = F_0sin(\omega t) mg \\
+        x(t) = DAF \cdot \frac{F_0}{k}\sin(\omega t + \phi) + \Delta_0,\;\text{At steady state} \\
+        \textbf{Dynamic Amplification Factor}:\; DAF = \frac{1}{\sqrt{(1-(\frac{f}{f_n})^2)^2+(2\frac{\beta f}{f_n})^2}}\\
+        \Delta_{max} = \frac{F_{max}}{k} \\
+        F_{max} = DAF \cdot F_0 + mg
+    \end{math}
 \end{document}
