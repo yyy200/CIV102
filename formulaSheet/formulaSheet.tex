@@ -17,6 +17,8 @@
 \rhead{Youssef El Mays}
 \doublespacing
 
+
+
 \newcommand{\SubItem}[1]{
     {\setlength\itemindent{15pt} \item[-] #1}
 }
@@ -239,5 +241,27 @@
         &\Delta V_{12} = \int_{x1}^{x2}w(x) \,dx& \\
         &v(x) = \frac{d}{dx}M(x)& \\
         &\Delta M_{12} = M_2 - M_1 = \int_{x1}^{x2}v(x)\,dx &
+    \end{flalign}
+
+    \section{Flexural Stresses}
+    \begin{flalign}
+        &\Delta l =0\; \text{at centroidal axis}& \\
+        &\phi = \frac{d\theta}{dx},\;\phi=\text{curvature}& \\
+        &\epsilon(y) = \phi y &\\
+        &I = \int y^2dA& \\
+        & \sigma = E\epsilon&\\
+        &\sigma(y) = E \phi y & \\
+        & \Delta F_i = \sigma_i \Delta A_i = E \phi y \cdot \Delta A_i & \\
+        & N = \sum_{i=0}^n \Delta F_i = 0 &\\
+        & 0 = \sum_{i=0}^n E\phi y_i \Delta A_i &\\
+        & \lim_{\Delta A \rightarrow 0} \sum_{i=0}^n E\phi y_i \Delta A_i = \int E \phi y\,dA&\\
+        & \Delta M_i = \Delta F_i y_i &\\
+        & M = \lim_{\Delta A \rightarrow 0} \sum_{i=0}^n \Delta F_i y_i = \lim_{\Delta A \rightarrow 0} \sum_{i=0}^n E \phi y^2_i \cdot \Delta A_i = E\phi \int y^2_i dA &\\
+        &M = EI\phi = EI \frac{\sigma}{Ey} & \\
+        & \sigma  = \frac{My}{I},\;\textbf{Navier's equation},\;&\\
+        &M = \text{bending Moment}& \\
+        &I = \text{Second Moment of area}& \\
+       & \sigma = \text{Flexural stress}& \\
+       & y = \text{Vertical Distance from centroid}
     \end{flalign}
 \end{document}
