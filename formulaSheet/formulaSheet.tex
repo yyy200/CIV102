@@ -243,6 +243,19 @@
         &\Delta M_{12} = M_2 - M_1 = \int_{x1}^{x2}v(x)\,dx &
     \end{flalign}
 
+    \section{Shear Stress}
+    \begin{flalign}
+        & \tau = \; \text{Shear Stress}& \\
+        & \Delta C = \tau \cdot b \Delta x & \\
+        & \Delta C = \int \sigma \,dA &\\
+        & \tau \cdot b \Delta x = \int_{y_0}^{y_{top}} \frac{\Delta M y}{I}\,dA =\frac{\Delta M}{I} \cdot \int_{y_0}^{y_{top}} y\,dA & \\
+        & \tau = \frac{\Delta M}{\Delta x} \cdot \frac{1}{Ib} \cdot \int_{y_0}^{y_{top}} y\,dA =  \frac{\Delta M}{\Delta x} \cdot \frac{Q}{Ib} &\\
+        & V = \frac{dM}{dx} & \\
+        & \tau = \frac{VQ}{Ib} & \\
+        & Q =\;\text{First Moment of Area taken about the centroid} &\\
+        & Q = \int_{y_0}^{y_{top}} y\,dA
+    \end{flalign}
+
     \section{Flexural Stresses}
     \begin{flalign}
         &\Delta l =0\; \text{at centroidal axis}& \\
