@@ -240,7 +240,7 @@
         &w(x) = \frac{d}{dx}v(x)& \\
         &\Delta V_{12} = \int_{x1}^{x2}w(x) \,dx& \\
         &v(x) = \frac{d}{dx}M(x)& \\
-        &\Delta M_{12} = M_2 - M_1 = \int_{x1}^{x2}v(x)\,dx &
+        &\Delta M_{12} = M_2 - M_1 = \int_{x1}^{x2}v(x)\,dx & 
     \end{flalign}
 
     \section{Shear Stress}
@@ -280,5 +280,18 @@
        & \sigma = \text{Flexural stress},\;y = \text{Vertical Distance from centroid} & \\
        & \Delta \theta_{12} = \theta_2 - \theta_1 = \int_{x_1}^{x_2} \phi\,dx \\
        & \delta_{DT} = \lim_{\Delta x \rightarrow\infty}\sum_{i = 1}^n \phi(x_i)(x_{DT} - x_i)\Delta x = \int\phi(x)(x_{DT} - x)dx 
+    \end{flalign}
+
+    \section{Poisson}
+    \begin{flalign}
+        & \epsilon_{x\,poission} = -\mu \frac{\sigma_y}{E} &\\
+        & \epsilon_{y\,poission} = -\mu \frac{\sigma_x}{E} &\\    
+        & \epsilon_x = \frac{\sigma_x}{E} - \mu \frac{\sigma_y}{E} &\\    
+        & \epsilon_y = \frac{\sigma_y}{E} - \mu \frac{\sigma_x}{E} & \\
+        & y = A\cdot \sin{(\frac{n\pi}{L}X)}, n \epsilon & \\
+        & P_E = \frac{\pi^2EI}{L^2} & \\
+        & I = \frac{bt^3}{12},\; A=bt &\\
+        & P_E = \frac{\pi^2E}{L^2} \cdot  \frac{bt^3}{12} & \\
+        & \sigma_E = \frac{P_E}{A} = \frac{\pi^2E}{12} \cdot (\frac{t}{L})^2 &
     \end{flalign}
 \end{document}
