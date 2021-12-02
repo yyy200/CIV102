@@ -310,7 +310,6 @@
     \begin{flalign}
         & f'_t  =0.33\sqrt{f^\prime_c} & \\
         & Ec = 4730\sqrt{f^\prime_c} &  \\
-        & \text{Rebars have ribs for mechanical anchorage in concrete} & \\
         & b = \text{width of section on compression side} & \\
         & A_s = \text{total area of longitudinal steel on tension side } & \\
         & d = \text{distance to $A_s$ from the compression side} & \\
@@ -331,7 +330,8 @@
         & V_{safe} 0.5V_c + 0.6V_s \leq 0.5 V_{max} & \\
         & V_{max} 0.25f^\prime_cb_w \cdot jd & \\ 
         & \text{No Shear reinforcement: } V = \frac{230 \sqrt{f^\prime_c}}{1000 + 0.9d} \cdot b_wjd & \\
-        & V = \frac{Av f_y jd}{s} \cdot \cot\left(35^\circ \right)& \\
-        & f^\prime_c=MPa,\;d=mm 
+        & \text{Shear reinforcement: } &\\
+        & V = \frac{Av f_y jd}{s} \cdot \cot{\left(35^\circ \right)}& \\
+        & V_c = 0.18 \sqrt{f^\prime_c } b_wjd\;if\;\frac{AvF_y}{b_w s} \geq 0.06\sqrt{f^\prime_c}
     \end{flalign}
 \end{document}
